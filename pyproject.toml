@@ -1,0 +1,16 @@
+[project]
+name = "mcp-expense"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=4.0.8",
+]
+
+[project.scripts]
+mcp-expense = "mcp_expense:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
